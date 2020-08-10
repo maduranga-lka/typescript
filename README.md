@@ -14,4 +14,10 @@ Go inside the workfolder and execute npm init
         "start": "lite-server"
     },  
     
-Add start attribute in package.json file and execute npm install lite-server --save-dev
+Add start attribute in package.json file and execute npm install lite-server --save-dev  
+
+# Setup ts compiler
+tsc --init  
+This makes tsconfig.json. by giving only tsc command in the work folder we can compile all the available ts files.
+
+
